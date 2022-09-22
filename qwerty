@@ -3,15 +3,14 @@
 using namespace std;
 
 float circumference(float radius) {
-    
-    return 2 * 3.14 * radius;
-  }
+  return 2 * 3.14 * radius;
+}
+
 int main() {
   float radius = 5;
-
   float result = circumference(radius);
 
-  cout << "длина окружности: " << result << endl;
+  cout << "Длина окружности: " << result << endl;
   
   return 0;
 }
