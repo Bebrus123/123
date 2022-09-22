@@ -4,21 +4,18 @@ using namespace std;
 
 float circumference(float radius) {
   if (radius < 0) {
-    
     return -1;
   }
   else {
-   
     return 2 * 3.14 * radius;
   }
 }
 
 int main() {
   float radius = 5;
-
   float result = circumference(radius);
-
-  cout << "длина окружности: " << result << endl;
+  
+  cout << "Р”Р»РёРЅР° РѕРєСЂСѓР¶РЅРѕСЃС‚Рё: " << result << endl;
   
   return 0;
 }
